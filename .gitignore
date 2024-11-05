@@ -1,0 +1,45 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3  # Database file (if using SQLite)
+
+# Environment and configuration files
+.env           # Environment variables file
+*.env          # Any other environment files
+*.secret       # Secrets files if using a different extension
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Static and media files
+/static/
+media/
+
+# Node modules (if using npm for frontend assets)
+node_modules/
+
+# Migrations (optional, but generally you’ll want to keep these for production)
+# If you want to ignore migrations, uncomment the following line:
+# **/migrations/
+
+# Compiled static files
+/staticfiles/
